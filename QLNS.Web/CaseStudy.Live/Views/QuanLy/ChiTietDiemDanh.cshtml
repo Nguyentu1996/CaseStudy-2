@@ -1,0 +1,45 @@
+﻿@model IEnumerable<CaseStudy.Live.Models.QuanLy.Response.DiemDanh>
+@using CaseStudy.Live.Models.QuanLy.Request
+
+@{
+    ViewData["Title"] = "ChiTietDiemDanh";
+}
+
+<h1>Chi Tiết Điểm Danh</h1>
+
+<div>
+    <p>@Html.ActionLink("Trở lại thống kê nhân viên", "ThongKeNhanVien", "QuanLy", new LayThongKeNhanVienId() { NhanVienId = Model.FirstOrDefault().NhanVienId })</p>
+    <p>@Html.ActionLink("Trở lại thống kê bộ phận", "ThongKeBoPhan", "QuanLy", new LayThongKeBoPhanId() { })</p>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.HoTen)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TrangThai)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ngay)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.HoTen)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TrangThai)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Ngay)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

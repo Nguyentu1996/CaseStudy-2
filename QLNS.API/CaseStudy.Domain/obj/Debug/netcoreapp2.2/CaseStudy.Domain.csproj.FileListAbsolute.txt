@@ -1,0 +1,9 @@
+F:\Back-end\QLNS\QLNS.API\CaseStudy.Domain\bin\Debug\netcoreapp2.2\CaseStudy.Domain.deps.json
+F:\Back-end\QLNS\QLNS.API\CaseStudy.Domain\bin\Debug\netcoreapp2.2\CaseStudy.Domain.dll
+F:\Back-end\QLNS\QLNS.API\CaseStudy.Domain\bin\Debug\netcoreapp2.2\CaseStudy.Domain.pdb
+F:\Back-end\QLNS\QLNS.API\CaseStudy.Domain\obj\Debug\netcoreapp2.2\CaseStudy.Domain.csproj.CoreCompileInputs.cache
+F:\Back-end\QLNS\QLNS.API\CaseStudy.Domain\obj\Debug\netcoreapp2.2\CaseStudy.Domain.AssemblyInfoInputs.cache
+F:\Back-end\QLNS\QLNS.API\CaseStudy.Domain\obj\Debug\netcoreapp2.2\CaseStudy.Domain.AssemblyInfo.cs
+F:\Back-end\QLNS\QLNS.API\CaseStudy.Domain\obj\Debug\netcoreapp2.2\CaseStudy.Domain.dll
+F:\Back-end\QLNS\QLNS.API\CaseStudy.Domain\obj\Debug\netcoreapp2.2\CaseStudy.Domain.pdb
+F:\Back-end\QLNS\QLNS.API\CaseStudy.Domain\obj\Debug\netcoreapp2.2\CaseStudy.Domain.csprojAssemblyReference.cache

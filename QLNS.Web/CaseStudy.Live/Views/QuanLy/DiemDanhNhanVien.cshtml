@@ -1,0 +1,92 @@
+﻿@model CaseStudy.Live.Models.QuanLy.Response.DiemDanh
+@using CaseStudy.Live.Models.QuanLy.Request
+
+@{
+    ViewData["Title"] = "DiemDanhNhanVien";
+}
+
+<h1>Điểm Danh Nhân Viên</h1>
+
+<h4>DiemDanh</h4>
+<hr />
+<form asp-action="TaoDiemDanhNhanVien" asp-controller="QuanLy">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    @if (TempData["Success"] != null)
+    {
+        <div class="alert alert-success alert-dismissible">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+            <strong>@TempData["Success"]</strong>
+        </div>
+    }
+    <p>@Html.DisplayNameFor(model => model.Ngay)</p>
+    <p><input asp-for="Ngay" class="form-control" type="date" value=@Model.Ngay.ToString("yyyy-MM-dd")></p>
+    <input type="hidden" asp-for="NhanVienId" class="form-control" />
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.HoTen)
+                </th>
+                <th>
+                    Có mặt
+                </th>
+                <th>
+                    Trễ
+                </th>
+                <th>
+                    Không phép
+                </th>
+                <th>
+                    Có phép
+                </th>
+                <th>
+                    Theo quy định
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <p>@Html.DisplayFor(modelItem => modelItem.HoTen)</p>
+                </td>
+                <td>
+                    <input type="radio" name="TrangThai" value="1" checked="@(Model.TrangThai == 1)">
+                </td>
+                <td>
+                    <input type="radio" name="TrangThai" value="2" checked="@(Model.TrangThai == 2)">
+                </td>
+                <td>
+                    <input type="radio" name="TrangThai" value="3" checked="@(Model.TrangThai == 3)">
+                </td>
+                <td>
+                    <input type="radio" name="TrangThai" value="4" checked="@(Model.TrangThai == 4)">
+                </td>
+                <td>
+                    <input type="radio" name="TrangThai" value="5" checked="@(Model.TrangThai == 5)">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="form-group">
+        <input type="submit" value="Save" class="btn btn-primary" />
+    </div>
+</form>
+
+<div>
+    @Html.ActionLink("Trở lại danh sách", "DiemDanhBoPhan", "QuanLy", new LayDiemDanhBoPhanId() { Ngay = Model.Ngay })
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            // show the alert
+            setTimeout(function () {
+                $(".alert").alert('close');
+            }, 5000);
+        });
+    </script>
+}

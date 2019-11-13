@@ -1,0 +1,16 @@
+F:\Back-end\QLNS\QLNS.API\CaseStudy.BAL\bin\Debug\netcoreapp2.2\CaseStudy.BAL.deps.json
+F:\Back-end\QLNS\QLNS.API\CaseStudy.BAL\bin\Debug\netcoreapp2.2\CaseStudy.BAL.dll
+F:\Back-end\QLNS\QLNS.API\CaseStudy.BAL\bin\Debug\netcoreapp2.2\CaseStudy.BAL.pdb
+F:\Back-end\QLNS\QLNS.API\CaseStudy.BAL\bin\Debug\netcoreapp2.2\CaseStudy.BAL.Interface.dll
+F:\Back-end\QLNS\QLNS.API\CaseStudy.BAL\bin\Debug\netcoreapp2.2\CaseStudy.DAL.Interface.dll
+F:\Back-end\QLNS\QLNS.API\CaseStudy.BAL\bin\Debug\netcoreapp2.2\CaseStudy.Domain.dll
+F:\Back-end\QLNS\QLNS.API\CaseStudy.BAL\bin\Debug\netcoreapp2.2\CaseStudy.BAL.Interface.pdb
+F:\Back-end\QLNS\QLNS.API\CaseStudy.BAL\bin\Debug\netcoreapp2.2\CaseStudy.DAL.Interface.pdb
+F:\Back-end\QLNS\QLNS.API\CaseStudy.BAL\bin\Debug\netcoreapp2.2\CaseStudy.Domain.pdb
+F:\Back-end\QLNS\QLNS.API\CaseStudy.BAL\obj\Debug\netcoreapp2.2\CaseStudy.BAL.csprojAssemblyReference.cache
+F:\Back-end\QLNS\QLNS.API\CaseStudy.BAL\obj\Debug\netcoreapp2.2\CaseStudy.BAL.csproj.CoreCompileInputs.cache
+F:\Back-end\QLNS\QLNS.API\CaseStudy.BAL\obj\Debug\netcoreapp2.2\CaseStudy.BAL.AssemblyInfoInputs.cache
+F:\Back-end\QLNS\QLNS.API\CaseStudy.BAL\obj\Debug\netcoreapp2.2\CaseStudy.BAL.AssemblyInfo.cs
+F:\Back-end\QLNS\QLNS.API\CaseStudy.BAL\obj\Debug\netcoreapp2.2\CaseStudy.BAL.csproj.CopyComplete
+F:\Back-end\QLNS\QLNS.API\CaseStudy.BAL\obj\Debug\netcoreapp2.2\CaseStudy.BAL.dll
+F:\Back-end\QLNS\QLNS.API\CaseStudy.BAL\obj\Debug\netcoreapp2.2\CaseStudy.BAL.pdb

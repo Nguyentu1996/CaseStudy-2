@@ -1,0 +1,395 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\Back-end\\QLNS\\QLNS.API\\CaseStudy.API\\CaseStudy.API.csproj": {}
+  },
+  "projects": {
+    "F:\\Back-end\\QLNS\\QLNS.API\\CaseStudy.API\\CaseStudy.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Back-end\\QLNS\\QLNS.API\\CaseStudy.API\\CaseStudy.API.csproj",
+        "projectName": "CaseStudy.API",
+        "projectPath": "F:\\Back-end\\QLNS\\QLNS.API\\CaseStudy.API\\CaseStudy.API.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "F:\\Back-end\\QLNS\\QLNS.API\\CaseStudy.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "F:\\Back-end\\QLNS\\QLNS.API\\CaseStudy.BAL.Interface\\CaseStudy.BAL.Interface.csproj": {
+                "projectPath": "F:\\Back-end\\QLNS\\QLNS.API\\CaseStudy.BAL.Interface\\CaseStudy.BAL.Interface.csproj"
+              },
+              "F:\\Back-end\\QLNS\\QLNS.API\\CaseStudy.BAL\\CaseStudy.BAL.csproj": {
+                "projectPath": "F:\\Back-end\\QLNS\\QLNS.API\\CaseStudy.BAL\\CaseStudy.BAL.csproj"
+              },
+              "F:\\Back-end\\QLNS\\QLNS.API\\CaseStudy.DAL.Interface\\CaseStudy.DAL.Interface.csproj": {
+                "projectPath": "F:\\Back-end\\QLNS\\QLNS.API\\CaseStudy.DAL.Interface\\CaseStudy.DAL.Interface.csproj"
+              },
+              "F:\\Back-end\\QLNS\\QLNS.API\\CaseStudy.DAL\\CaseStudy.DAL.csproj": {
+                "projectPath": "F:\\Back-end\\QLNS\\QLNS.API\\CaseStudy.DAL\\CaseStudy.DAL.csproj"
+              },
+              "F:\\Back-end\\QLNS\\QLNS.API\\CaseStudy.Domain\\CaseStudy.Domain.csproj": {
+                "projectPath": "F:\\Back-end\\QLNS\\QLNS.API\\CaseStudy.Domain\\CaseStudy.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.4, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "F:\\Back-end\\QLNS\\QLNS.API\\CaseStudy.BAL.Interface\\CaseStudy.BAL.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Back-end\\QLNS\\QLNS.API\\CaseStudy.BAL.Interface\\CaseStudy.BAL.Interface.csproj",
+        "projectName": "CaseStudy.BAL.Interface",
+        "projectPath": "F:\\Back-end\\QLNS\\QLNS.API\\CaseStudy.BAL.Interface\\CaseStudy.BAL.Interface.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "F:\\Back-end\\QLNS\\QLNS.API\\CaseStudy.BAL.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "F:\\Back-end\\QLNS\\QLNS.API\\CaseStudy.DAL.Interface\\CaseStudy.DAL.Interface.csproj": {
+                "projectPath": "F:\\Back-end\\QLNS\\QLNS.API\\CaseStudy.DAL.Interface\\CaseStudy.DAL.Interface.csproj"
+              },
+              "F:\\Back-end\\QLNS\\QLNS.API\\CaseStudy.Domain\\CaseStudy.Domain.csproj": {
+                "projectPath": "F:\\Back-end\\QLNS\\QLNS.API\\CaseStudy.Domain\\CaseStudy.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "F:\\Back-end\\QLNS\\QLNS.API\\CaseStudy.BAL\\CaseStudy.BAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Back-end\\QLNS\\QLNS.API\\CaseStudy.BAL\\CaseStudy.BAL.csproj",
+        "projectName": "CaseStudy.BAL",
+        "projectPath": "F:\\Back-end\\QLNS\\QLNS.API\\CaseStudy.BAL\\CaseStudy.BAL.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "F:\\Back-end\\QLNS\\QLNS.API\\CaseStudy.BAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "F:\\Back-end\\QLNS\\QLNS.API\\CaseStudy.BAL.Interface\\CaseStudy.BAL.Interface.csproj": {
+                "projectPath": "F:\\Back-end\\QLNS\\QLNS.API\\CaseStudy.BAL.Interface\\CaseStudy.BAL.Interface.csproj"
+              },
+              "F:\\Back-end\\QLNS\\QLNS.API\\CaseStudy.DAL.Interface\\CaseStudy.DAL.Interface.csproj": {
+                "projectPath": "F:\\Back-end\\QLNS\\QLNS.API\\CaseStudy.DAL.Interface\\CaseStudy.DAL.Interface.csproj"
+              },
+              "F:\\Back-end\\QLNS\\QLNS.API\\CaseStudy.Domain\\CaseStudy.Domain.csproj": {
+                "projectPath": "F:\\Back-end\\QLNS\\QLNS.API\\CaseStudy.Domain\\CaseStudy.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "F:\\Back-end\\QLNS\\QLNS.API\\CaseStudy.DAL.Interface\\CaseStudy.DAL.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Back-end\\QLNS\\QLNS.API\\CaseStudy.DAL.Interface\\CaseStudy.DAL.Interface.csproj",
+        "projectName": "CaseStudy.DAL.Interface",
+        "projectPath": "F:\\Back-end\\QLNS\\QLNS.API\\CaseStudy.DAL.Interface\\CaseStudy.DAL.Interface.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "F:\\Back-end\\QLNS\\QLNS.API\\CaseStudy.DAL.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "F:\\Back-end\\QLNS\\QLNS.API\\CaseStudy.Domain\\CaseStudy.Domain.csproj": {
+                "projectPath": "F:\\Back-end\\QLNS\\QLNS.API\\CaseStudy.Domain\\CaseStudy.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "F:\\Back-end\\QLNS\\QLNS.API\\CaseStudy.DAL\\CaseStudy.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Back-end\\QLNS\\QLNS.API\\CaseStudy.DAL\\CaseStudy.DAL.csproj",
+        "projectName": "CaseStudy.DAL",
+        "projectPath": "F:\\Back-end\\QLNS\\QLNS.API\\CaseStudy.DAL\\CaseStudy.DAL.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "F:\\Back-end\\QLNS\\QLNS.API\\CaseStudy.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "F:\\Back-end\\QLNS\\QLNS.API\\CaseStudy.DAL.Interface\\CaseStudy.DAL.Interface.csproj": {
+                "projectPath": "F:\\Back-end\\QLNS\\QLNS.API\\CaseStudy.DAL.Interface\\CaseStudy.DAL.Interface.csproj"
+              },
+              "F:\\Back-end\\QLNS\\QLNS.API\\CaseStudy.Domain\\CaseStudy.Domain.csproj": {
+                "projectPath": "F:\\Back-end\\QLNS\\QLNS.API\\CaseStudy.Domain\\CaseStudy.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.4, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Runtime": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "F:\\Back-end\\QLNS\\QLNS.API\\CaseStudy.Domain\\CaseStudy.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Back-end\\QLNS\\QLNS.API\\CaseStudy.Domain\\CaseStudy.Domain.csproj",
+        "projectName": "CaseStudy.Domain",
+        "projectPath": "F:\\Back-end\\QLNS\\QLNS.API\\CaseStudy.Domain\\CaseStudy.Domain.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "F:\\Back-end\\QLNS\\QLNS.API\\CaseStudy.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

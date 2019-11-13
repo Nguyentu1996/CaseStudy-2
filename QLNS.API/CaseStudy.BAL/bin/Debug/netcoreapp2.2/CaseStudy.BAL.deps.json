@@ -1,0 +1,65 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.2",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "CaseStudy.BAL/1.0.0": {
+        "dependencies": {
+          "CaseStudy.BAL.Interface": "1.0.0",
+          "CaseStudy.DAL.Interface": "1.0.0",
+          "CaseStudy.Domain": "1.0.0"
+        },
+        "runtime": {
+          "CaseStudy.BAL.dll": {}
+        }
+      },
+      "CaseStudy.BAL.Interface/1.0.0": {
+        "dependencies": {
+          "CaseStudy.DAL.Interface": "1.0.0",
+          "CaseStudy.Domain": "1.0.0"
+        },
+        "runtime": {
+          "CaseStudy.BAL.Interface.dll": {}
+        }
+      },
+      "CaseStudy.DAL.Interface/1.0.0": {
+        "dependencies": {
+          "CaseStudy.Domain": "1.0.0"
+        },
+        "runtime": {
+          "CaseStudy.DAL.Interface.dll": {}
+        }
+      },
+      "CaseStudy.Domain/1.0.0": {
+        "runtime": {
+          "CaseStudy.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CaseStudy.BAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CaseStudy.BAL.Interface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CaseStudy.DAL.Interface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CaseStudy.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
